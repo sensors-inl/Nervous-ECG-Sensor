@@ -1,0 +1,2415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\useradmin\Documents\PC Matthieu\INL\RENFORCE\Carte_Dev_Capteurs_Physio\Kicad\renforce-ecg-kicad-develop\Source\renforce-ecg.kicad_sch</source>
+    <date>20/08/2024 16:54:21</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RENFORCE - ECG Sensor</title>
+        <company/>
+        <rev>1</rev>
+        <date>2024-05-02</date>
+        <source>renforce-ecg.kicad_sch</source>
+        <comment number="1" value="Copyright (c) 2024 INSA Lyon, CNRS, INL UMR5270"/>
+        <comment number="2" value="License : MIT License"/>
+        <comment number="3" value="Contact : bertrand.massot@insa-lyon.fr"/>
+        <comment number="4" value="Authors : Bertrand Massot, Matthieu Mesnage, Hugo Buy"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>BATT LI-PO 3.7V 165MAH </value>
+      <fields>
+        <field name="Manufacturer">BAK TECHNOLOGY</field>
+        <field name="Manufacturer Part Number">LP-402025-1S-3</field>
+        <field name="Note">Rechargeable Battery</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">2077885</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="Rechargeable_Battery_Lithium_Polymer" description=""/>
+      <property name="Manufacturer" value="BAK TECHNOLOGY"/>
+      <property name="Manufacturer Part Number" value="LP-402025-1S-3"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="2077885"/>
+      <property name="Note" value="Rechargeable Battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>813a1b72-caf5-40d6-82ff-ebd55bb5377a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>CAP CER 1UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB105</field>
+        <field name="Note">1µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458896</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB105"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458896"/>
+      <property name="Note" value="1µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e515102-68a9-4389-a65f-7df9902a6036</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>CAP CER 1UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB105</field>
+        <field name="Note">1µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458896</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB105"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458896"/>
+      <property name="Note" value="1µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddf555b6-5af1-4e68-bf44-3484f5b552da</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>CAP CER 4.7UF 6.3V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB475</field>
+        <field name="Note">4.7µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369135</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB475"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369135"/>
+      <property name="Note" value="4.7µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbcaf711-a901-4206-9dc5-1f160ad8d4f2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>CAP CER 4.7UF 6.3V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB475</field>
+        <field name="Note">4.7µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369135</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB475"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369135"/>
+      <property name="Note" value="4.7µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec951efb-d494-4321-931c-7d2f43ba564f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>CAP CER 0.47UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB474</field>
+        <field name="Note">470nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369138</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB474"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369138"/>
+      <property name="Note" value="470nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d270df50-17f3-4c84-a608-c9eafd68c762</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>CAP CER 1UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB105</field>
+        <field name="Note">1µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458896</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB105"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458896"/>
+      <property name="Note" value="1µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>412ff4fd-03bd-4f7e-8400-a8b1ad6351bc</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>CAP CER 0.1UF 16V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRX7R7BB104</field>
+        <field name="Note">100nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369125</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRX7R7BB104"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369125"/>
+      <property name="Note" value="100nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9f7b20b-614c-41eb-b641-19fd4945003f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>CAP CER 1UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB105</field>
+        <field name="Note">1µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458896</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB105"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458896"/>
+      <property name="Note" value="1µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b4f87a1-41cb-4316-96cc-89e0bc900b5f</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>CAP CER 1UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB105</field>
+        <field name="Note">1µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458896</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB105"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458896"/>
+      <property name="Note" value="1µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49e3d312-b8a2-4ffa-90fa-bfbc53b4cdea</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>CAP CER 1000PF 50V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX7R9BB102</field>
+        <field name="Note">1nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3019380</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX7R9BB102"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3019380"/>
+      <property name="Note" value="1nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04b81a81-dcaa-4c0a-8c3b-561e35f5bf43</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>CAP CER 0.1UF 16V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRX7R7BB104</field>
+        <field name="Note">100nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369125</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRX7R7BB104"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369125"/>
+      <property name="Note" value="100nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708d21fc-1a18-437a-9145-d95c34413631</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>CAP CER 0.22UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB224</field>
+        <field name="Note">0.22µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9402055</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB224"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9402055"/>
+      <property name="Note" value="0.22µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abac5c64-ac18-4792-8455-c0b88ea4d8ce</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>CAP CER 0.1UF 16V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRX7R7BB104</field>
+        <field name="Note">100nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3369125</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRX7R7BB104"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3369125"/>
+      <property name="Note" value="100nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33814b52-aac3-41be-9b5d-fbc2ee03fe5d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>CAP CER 0.22UF 10V X5R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB224</field>
+        <field name="Note">0.22µF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9402055</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB224"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9402055"/>
+      <property name="Note" value="0.22µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c77e3c9c-9c15-4135-896c-81efb43b4925</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>CAP CER 22000PF 16V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX7R7BB223</field>
+        <field name="Note">22nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3019299</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX7R7BB223"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3019299"/>
+      <property name="Note" value="22nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e77c514d-b914-46ba-9e93-8db92938156e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>CAP CER 3300PF 50V X7R 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX7R9BB332</field>
+        <field name="Note">3.3nF</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3873402</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX7R9BB332"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3873402"/>
+      <property name="Note" value="3.3nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdcd14b6-e2fd-46f5-a49b-9a1c22be21b9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE SCHOTTKY 20V 500MA SOD123</value>
+      <footprint>renforce-ecg:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">STPS0520Z</field>
+        <field name="Note">MBR0520LT1G</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">1467545</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part Number" value="STPS0520Z"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="1467545"/>
+      <property name="Note" value="MBR0520LT1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a4e42ee-0245-4806-804f-fa37d8727604</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED RGB CLEAR 4SMD</value>
+      <footprint>renforce-ecg:APHF1608LSEEQBDZGKC</footprint>
+      <fields>
+        <field name="Manufacturer">KINGBRIGHT</field>
+        <field name="Manufacturer Part Number">APHF1608LSEEQBDZGKC</field>
+        <field name="Note">APHF1608LSEEQBDZGKC</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">754-2143-1-ND</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="APHF1608LSEEQBDZGKC" description=""/>
+      <property name="Manufacturer" value="KINGBRIGHT"/>
+      <property name="Manufacturer Part Number" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Supplier" value="DIGIKEY"/>
+      <property name="Supplier Part Number" value="754-2143-1-ND"/>
+      <property name="Note" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc866bef-da0d-4a9c-8947-e840a7395641</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED RGB CLEAR 4SMD</value>
+      <footprint>renforce-ecg:APHF1608LSEEQBDZGKC</footprint>
+      <fields>
+        <field name="Manufacturer">KINGBRIGHT</field>
+        <field name="Manufacturer Part Number">APHF1608LSEEQBDZGKC</field>
+        <field name="Note">APHF1608LSEEQBDZGKC</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">754-2143-1-ND</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="APHF1608LSEEQBDZGKC" description=""/>
+      <property name="Manufacturer" value="KINGBRIGHT"/>
+      <property name="Manufacturer Part Number" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Supplier" value="DIGIKEY"/>
+      <property name="Supplier Part Number" value="754-2143-1-ND"/>
+      <property name="Note" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eefa7004-c2cd-4d54-bb56-c9c71505a85c</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>PTC RESET FUSE 16V 500MA 1210</value>
+      <footprint>renforce-ecg:Fuse_1210_3225Metric</footprint>
+      <fields>
+        <field name="Manufacturer">BEL</field>
+        <field name="Manufacturer Part Number">0ZCH0050FF2G</field>
+        <field name="Note">Fuse</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">2848519</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="Fuse" description="Fuse"/>
+      <property name="Manufacturer" value="BEL"/>
+      <property name="Manufacturer Part Number" value="0ZCH0050FF2G"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="2848519"/>
+      <property name="Note" value="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5c1a1ea-9f31-462e-9917-3d0616f9343b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CONN RCP USB3.1 TYPEC 24P SMD RA</value>
+      <footprint>renforce-ecg:USB_TYPE_C_105450-0101</footprint>
+      <fields>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">105450-0101</field>
+        <field name="Note">USB_TYPE_C_105450-0101</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">2524076</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="CONN_USB_3.1_TYPE_C_-_105450-0101" description=""/>
+      <property name="Manufacturer" value="MOLEX"/>
+      <property name="Manufacturer Part Number" value="105450-0101"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="2524076"/>
+      <property name="Note" value="USB_TYPE_C_105450-0101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78f79f62-c887-4f0b-82b0-4dbc57a1d87d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MOLEX 53048-0310</value>
+      <footprint>renforce-ecg:CONN_BAT_53048-0310</footprint>
+      <fields>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">53048-0310</field>
+        <field name="Note">CONN BAT</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">9732918</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Manufacturer" value="MOLEX"/>
+      <property name="Manufacturer Part Number" value="53048-0310"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="9732918"/>
+      <property name="Note" value="CONN BAT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc856957-24f9-4576-a366-92f9bae2851d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CONN HEADER R/A 4POS 2.54MM</value>
+      <footprint>renforce-ecg:CONN_ELECTRODE</footprint>
+      <fields>
+        <field name="Manufacturer">AMPHENOL COMMUNICATIONS SOLUTIONS</field>
+        <field name="Manufacturer Part Number">77315-118-04LF</field>
+        <field name="Note">CONN ELECTRODES</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3728851</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="CONN_ELECTRODE" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer" value="AMPHENOL COMMUNICATIONS SOLUTIONS"/>
+      <property name="Manufacturer Part Number" value="77315-118-04LF"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3728851"/>
+      <property name="Note" value="CONN ELECTRODES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86348363-f4cc-4799-b55a-4de6a93820e9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>RES SMD 3K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">AC0402FR-073KL</field>
+        <field name="Note">3k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3951323</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="AC0402FR-073KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3951323"/>
+      <property name="Note" value="3k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ade54d-0c5a-4050-aa8a-14b472af4590</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>RES 5.9K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-075K9L</field>
+        <field name="Note">5.9k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3951010</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-075K9L"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3951010"/>
+      <property name="Note" value="5.9k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32e44508-7dbe-49c8-8b39-39d1e910edfb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ba1e0fc-0066-44b9-918e-d5984f0707d0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d7339f4-cda3-4ae1-8a52-9485ff60d460</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0043c46b-eee4-4783-b55f-ba74417d9dd1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96d5a8ef-b311-4f9e-997c-7b55ce1ebfd1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>RES 0.01 OHM 1% 1/10W 0603</value>
+      <footprint>renforce-ecg:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RL0603FR-070R01L</field>
+        <field name="Note">10m</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">8067767</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RL0603FR-070R01L"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="8067767"/>
+      <property name="Note" value="10m"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>404ca677-d5ad-48c6-87d2-9733491b90ba</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f1bc6ec-6829-4d07-8dc7-9494b5c219fb</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>RES SMD 10M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Note">10M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458733"/>
+      <property name="Note" value="10M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a9a0c2a-fd29-4488-ad22-fb23d0131761</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>RES SMD 10M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Note">10M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458733"/>
+      <property name="Note" value="10M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88d4139b-440b-49e6-93e3-c48f36455013</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>RES SMD 10M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Note">10M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458733"/>
+      <property name="Note" value="10M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95704284-499c-42e5-997c-fd2914306b2e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>RES 10K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710KL</field>
+        <field name="Note">10k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239359</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239359"/>
+      <property name="Note" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>004f09ef-2cb9-443a-837b-3c6ff77601b9</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>RES SMD 180K OHM 1% 1/10W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part Number">ERJ-H2RF1803X</field>
+        <field name="Note">180k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3644222</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="Manufacturer Part Number" value="ERJ-H2RF1803X"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3644222"/>
+      <property name="Note" value="180k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>684012d8-21bf-4ec4-b612-716422b64262</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>RES SMD 180K OHM 1% 1/10W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part Number">ERJ-H2RF1803X</field>
+        <field name="Note">180k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">3644222</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="Manufacturer Part Number" value="ERJ-H2RF1803X"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="3644222"/>
+      <property name="Note" value="180k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31ee4481-970b-4801-bfb5-404bdca63a7c</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>RES SMD 360K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-07360KL</field>
+        <field name="Note">360k</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">311-360KLRCT-ND</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-07360KL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="311-360KLRCT-ND"/>
+      <property name="Note" value="360k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daf34ad4-8f06-405e-889b-0ba242b74e65</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>RES SMD 10M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Note">10M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458733"/>
+      <property name="Note" value="10M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5503882-f803-4614-b5c1-3c42c38d5d49</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>RES SMD 10M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Note">10M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1458733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1458733"/>
+      <property name="Note" value="10M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cfe0ee2-3696-45b7-a8d6-7c5ae86131ac</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>RES SMD 1M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071ML</field>
+        <field name="Note">1M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239588</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239588"/>
+      <property name="Note" value="1M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dfdaac3-d0ea-480a-94c8-1565c3e685e8</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>RES SMD 1M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071ML</field>
+        <field name="Note">1M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239588</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239588"/>
+      <property name="Note" value="1M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1405f374-b6eb-49b2-a767-9e55c9d75a4d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>RES 1K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071KL</field>
+        <field name="Note">1k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239235</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239235"/>
+      <property name="Note" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>216ae9c7-464d-4ad6-9541-e665e689fbcc</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>RES 100K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-07100KL</field>
+        <field name="Note">100k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239472</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-07100KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239472"/>
+      <property name="Note" value="100k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5d3af3c-dbca-4445-9d5d-bc5983669852</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>RES 1K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071KL</field>
+        <field name="Note">1k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239235</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239235"/>
+      <property name="Note" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e08a538-85c1-4d4d-ad06-e4c99aa9461a</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>RES 100K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-07100KL</field>
+        <field name="Note">100k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239472</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-07100KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239472"/>
+      <property name="Note" value="100k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bf60d1f-74de-4cdf-8f8c-12c0b694f505</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>RES 4.7K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-074K7L</field>
+        <field name="Note">4.7k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239316</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-074K7L"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239316"/>
+      <property name="Note" value="4.7k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b9344f1-dde7-4725-b21c-2c14db2a6f26</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>RES SMD 1M OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071ML</field>
+        <field name="Note">1M</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239588</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071ML"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239588"/>
+      <property name="Note" value="1M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>289e3b13-6149-4c46-ac12-3fb62194b88f</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>RES 5.1K OHM 0.5% 1/10W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Manufacturer Part Number">ERJ-U2RD5101X</field>
+        <field name="Note">5.1k</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3516311</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="Manufacturer Part Number" value="ERJ-U2RD5101X"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3516311"/>
+      <property name="Note" value="5.1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24bc733a-ef9e-4cdc-9e3c-f79683a12d10</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>RES 5.1K OHM 0.5% 1/10W 0402</value>
+      <footprint>renforce-ecg:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Manufacturer Part Number">ERJ-U2RD5101X</field>
+        <field name="Note">5.1k</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3516311</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="Manufacturer Part Number" value="ERJ-U2RD5101X"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3516311"/>
+      <property name="Note" value="5.1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99764a4a-040b-4d19-a268-2110414c3413</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>RES 1K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-071KL</field>
+        <field name="Note">1k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239235</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-071KL"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239235"/>
+      <property name="Note" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9d039eb-c9b1-489e-9ef2-bfe40b6ecff5</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>RES 4.7K OHM 1% 1/16W 0402</value>
+      <footprint>renforce-ecg:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-074K7L</field>
+        <field name="Note">4.7k</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">9239316</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-074K7L"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="9239316"/>
+      <property name="Note" value="4.7k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>635c018f-a3ff-4e31-897e-5c80f9768ed9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RF TXRX MODULE BT TRACE ANT SMD</value>
+      <footprint>renforce-ecg:ISP1807-LR</footprint>
+      <fields>
+        <field name="Manufacturer">INSIGHT SIP</field>
+        <field name="Manufacturer Part Number">ISP1807-LR-RS</field>
+        <field name="Note">ISP1807-LR</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">1786-1019-1-ND</field>
+      </fields>
+      <libsource lib="" part="ISP1807-LR_1" description=""/>
+      <property name="Manufacturer" value="INSIGHT SIP"/>
+      <property name="Manufacturer Part Number" value="ISP1807-LR-RS"/>
+      <property name="Supplier" value="DIGIKEY"/>
+      <property name="Supplier Part Number" value="1786-1019-1-ND"/>
+      <property name="Note" value="ISP1807-LR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f55f43b7-02fa-4cb5-b043-f936a6272140 bde532bf-b054-41a8-9e83-4b0da46a87ff</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>IC BATT CHG LI-ION 1CELL 16QFN</value>
+      <footprint>renforce-ecg:BQ24074RGTx</footprint>
+      <fields>
+        <field name="Manufacturer">TEXAS INSTRUMENTS</field>
+        <field name="Manufacturer Part Number">BQ24074RGTT</field>
+        <field name="Note">BQ24074RGTT</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3123775</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="BQ24074RGTT" description=""/>
+      <property name="Manufacturer" value="TEXAS INSTRUMENTS"/>
+      <property name="Manufacturer Part Number" value="BQ24074RGTT"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3123775"/>
+      <property name="Note" value="BQ24074RGTT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0a2dbf8-bfc2-4ff3-bd19-c2330f0b2529</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>IC BATT FUEL GAUGE LICOO2 12SON</value>
+      <footprint>renforce-ecg:BQ27441DRZR-G1A</footprint>
+      <fields>
+        <field name="Manufacturer">TEXAS INSTRUMENTS</field>
+        <field name="Manufacturer Part Number">BQ27441DRZR-G1A</field>
+        <field name="Note">BQ27441DRZT-G1A</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3123775</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="BQ27441DRZT-G1A" description=""/>
+      <property name="Manufacturer" value="TEXAS INSTRUMENTS"/>
+      <property name="Manufacturer Part Number" value="BQ27441DRZR-G1A"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3123775"/>
+      <property name="Note" value="BQ27441DRZT-G1A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72af5b46-ce3c-4174-94f0-76c678cc11d8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>IC REG LINEAR 3.3V 200MA SOT23-5</value>
+      <footprint>renforce-ecg:TPS7A0533PDBVR</footprint>
+      <fields>
+        <field name="Manufacturer">TEXAS INSTRUMENTS</field>
+        <field name="Manufacturer Part Number">TPS7A0533PDBVR</field>
+        <field name="Note">TPS7A0533PDBVR</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">296-TPS7A0533PDBVRDKR-ND</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="TPS7A0533PDBVR" description=""/>
+      <property name="Manufacturer" value="TEXAS INSTRUMENTS"/>
+      <property name="Manufacturer Part Number" value="TPS7A0533PDBVR"/>
+      <property name="Supplier" value="DIGIKEY"/>
+      <property name="Supplier Part Number" value="296-TPS7A0533PDBVRDKR-ND"/>
+      <property name="Note" value="TPS7A0533PDBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42de1313-55e7-499c-af0d-bc70e0a8479c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>IC ECG FRONT END 20LFCSP</value>
+      <footprint>renforce-ecg:AD8232ACPZ-R7</footprint>
+      <fields>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Manufacturer Part Number">AD8232ACPZ-R7</field>
+        <field name="Note">AD8232ACPZ-R7</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">4029748</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="AD8232ACPZ-R7" description=""/>
+      <property name="Manufacturer" value="Analog Devices"/>
+      <property name="Manufacturer Part Number" value="AD8232ACPZ-R7"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="4029748"/>
+      <property name="Note" value="AD8232ACPZ-R7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afef4067-d22a-4b83-a01b-c86114175e51</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>IC INTFACE SPECIALIZED TSOT23-6</value>
+      <footprint>renforce-ecg:MAX16054AZT+T</footprint>
+      <fields>
+        <field name="Manufacturer">ANALOG DEVICES</field>
+        <field name="Manufacturer Part Number">MAX16054AZT+T</field>
+        <field name="Note">MAX16054AZT+T</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">2515822</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="MAX16054AZT+T" description=""/>
+      <property name="Manufacturer" value="ANALOG DEVICES"/>
+      <property name="Manufacturer Part Number" value="MAX16054AZT+T"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="2515822"/>
+      <property name="Note" value="MAX16054AZT+T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1e0a100-0ec7-4864-a58f-3c99e80f4367</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>SWITCH TACTILE SPST-NO 0.02A 15V</value>
+      <footprint>renforce-ecg:EVP-AA502W</footprint>
+      <fields>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Manufacturer Part Number">EVP-AA502W</field>
+        <field name="Note">EVP-AA502W</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">2831733</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="EVP-AA502W" description=""/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="Manufacturer Part Number" value="EVP-AA502W"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="2831733"/>
+      <property name="Note" value="EVP-AA502W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6601b7a5-6ba5-453f-89f7-c5a46a01de31</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TVS Diode WE-TVS-Standard, VRWM=5.0V</value>
+      <footprint>renforce-ecg:SM05.TCT</footprint>
+      <fields>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="Manufacturer Part Number">SM05.TCT</field>
+        <field name="Note">SM05.TCT</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1456392</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="TVS_DIODE_5VWM_SOT23-3L_1" description=""/>
+      <property name="Manufacturer" value="SEMTECH"/>
+      <property name="Manufacturer Part Number" value="SM05.TCT"/>
+      <property name="Supplier" value="Farnell"/>
+      <property name="Supplier Part Number" value="1456392"/>
+      <property name="Note" value="SM05.TCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1195bdf3-bac6-4cc2-8226-2499576660e9</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>LIGHTPIPE PNL MT CONVEX 0.250"</value>
+      <fields>
+        <field name="Manufacturer">DIALIGHT</field>
+        <field name="Manufacturer Part Number">515-1302-0250F</field>
+        <field name="Note">Optopipe</field>
+        <field name="Supplier">FARNELL</field>
+        <field name="Supplier Part Number">3775816</field>
+      </fields>
+      <libsource lib="renforce-ecg" part="OptoPipe" description=""/>
+      <property name="Manufacturer" value="DIALIGHT"/>
+      <property name="Manufacturer Part Number" value="515-1302-0250F"/>
+      <property name="Supplier" value="FARNELL"/>
+      <property name="Supplier Part Number" value="3775816"/>
+      <property name="Note" value="Optopipe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="renforce-ecg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d76fa3f-2bd2-491e-948e-4d8156b2ad0b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="ISP1807-LR_1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">RF TXRX MODULE BT TRACE ANT SMD</field>
+        <field name="Footprint">renforce-ecg:ISP1807-LR</field>
+        <field name="Manufacturer">INSIGHT SIP</field>
+        <field name="Manufacturer Part Number">ISP1807-LR-RS</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">1786-1019-1-ND</field>
+        <field name="Note">ISP1807-LR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS@10" type="power_in"/>
+        <pin num="2" name="P0.09/NFC1" type="bidirectional"/>
+        <pin num="3" name="P0.12" type="bidirectional"/>
+        <pin num="4" name="P0.10/NFC2" type="bidirectional"/>
+        <pin num="5" name="P0.14" type="bidirectional"/>
+        <pin num="6" name="P0.26" type="bidirectional"/>
+        <pin num="7" name="VSS@8" type="power_in"/>
+        <pin num="8" name="D+" type="power_in"/>
+        <pin num="9" name="P0.16" type="bidirectional"/>
+        <pin num="10" name="D-" type="power_in"/>
+        <pin num="11" name="P0.21" type="bidirectional"/>
+        <pin num="12" name="VBUS" type="power_in"/>
+        <pin num="13" name="P0.18/NRESET" type="bidirectional"/>
+        <pin num="14" name="VSS@2" type="power_in"/>
+        <pin num="15" name="P0.20" type="bidirectional"/>
+        <pin num="16" name="VSS@3" type="power_in"/>
+        <pin num="17" name="P0.22" type="bidirectional"/>
+        <pin num="18" name="VSS@4" type="power_in"/>
+        <pin num="19" name="P0.24" type="bidirectional"/>
+        <pin num="20" name="OUT_ANT" type="bidirectional"/>
+        <pin num="21" name="VSS@5" type="power_in"/>
+        <pin num="22" name="OUT_MOD" type="bidirectional"/>
+        <pin num="23" name="VSS@1" type="power_in"/>
+        <pin num="24" name="VSS@9" type="power_in"/>
+        <pin num="25" name="VSS@7" type="power_in"/>
+        <pin num="26" name="VCC_NRF" type="power_in"/>
+        <pin num="27" name="P0.17" type="bidirectional"/>
+        <pin num="28" name="SWDIO" type="bidirectional"/>
+        <pin num="29" name="P0.13" type="bidirectional"/>
+        <pin num="30" name="SWDCLK" type="input"/>
+        <pin num="31" name="VSS@6" type="power_in"/>
+        <pin num="32" name="P0.08" type="bidirectional"/>
+        <pin num="33" name="P0.07" type="bidirectional"/>
+        <pin num="34" name="P0.06" type="bidirectional"/>
+        <pin num="35" name="P0.04/AIN2" type="bidirectional"/>
+        <pin num="36" name="P0.05/AIN3" type="bidirectional"/>
+        <pin num="37" name="P0.15" type="bidirectional"/>
+        <pin num="38" name="P0.03/AIN1" type="bidirectional"/>
+        <pin num="39" name="P0.27" type="bidirectional"/>
+        <pin num="40" name="P0.02/AIN0" type="bidirectional"/>
+        <pin num="41" name="P0.25" type="bidirectional"/>
+        <pin num="42" name="P0.31/AIN7" type="bidirectional"/>
+        <pin num="43" name="P0.11" type="bidirectional"/>
+        <pin num="44" name="P0.30/AIN6" type="bidirectional"/>
+        <pin num="45" name="P0.19" type="bidirectional"/>
+        <pin num="46" name="P0.29/AIN5" type="bidirectional"/>
+        <pin num="47" name="P0.23" type="bidirectional"/>
+        <pin num="48" name="P0.28/AIN4" type="bidirectional"/>
+        <pin num="49" name="P1.02" type="bidirectional"/>
+        <pin num="50" name="P1.06" type="bidirectional"/>
+        <pin num="51" name="P1.15" type="bidirectional"/>
+        <pin num="52" name="P1.14" type="bidirectional"/>
+        <pin num="53" name="P1.13" type="bidirectional"/>
+        <pin num="54" name="P1.05" type="bidirectional"/>
+        <pin num="55" name="P1.08" type="bidirectional"/>
+        <pin num="56" name="P1.09" type="bidirectional"/>
+        <pin num="57" name="P1.00" type="bidirectional"/>
+        <pin num="58" name="P1.03" type="bidirectional"/>
+        <pin num="59" name="P1.12" type="bidirectional"/>
+        <pin num="60" name="P1.10" type="bidirectional"/>
+        <pin num="61" name="P1.11" type="bidirectional"/>
+        <pin num="62" name="P1.07" type="bidirectional"/>
+        <pin num="63" name="P1.04" type="bidirectional"/>
+        <pin num="64" name="P1.01" type="bidirectional"/>
+        <pin num="65" name="NC@14" type="passive"/>
+        <pin num="66" name="NC@13" type="passive"/>
+        <pin num="67" name="NC@12" type="passive"/>
+        <pin num="68" name="NC@11" type="passive"/>
+        <pin num="69" name="NC@10" type="passive"/>
+        <pin num="70" name="NC@9" type="passive"/>
+        <pin num="71" name="NC@2" type="passive"/>
+        <pin num="72" name="NC@3" type="passive"/>
+        <pin num="73" name="NC@8" type="passive"/>
+        <pin num="74" name="NC@7" type="passive"/>
+        <pin num="75" name="NC@6" type="passive"/>
+        <pin num="76" name="NC@5" type="passive"/>
+        <pin num="77" name="NC@4" type="passive"/>
+        <pin num="78" name="NC@1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="renforce-ecg" part="AD8232ACPZ-R7">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HPDRIVE" type="input"/>
+        <pin num="2" name="+IN" type="input"/>
+        <pin num="3" name="-IN" type="input"/>
+        <pin num="4" name="RLDFB" type="input"/>
+        <pin num="5" name="RLD" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+        <pin num="7" name="OPAMP+" type="input"/>
+        <pin num="8" name="REFOUT" type="input"/>
+        <pin num="9" name="OPAMP-" type="input"/>
+        <pin num="10" name="OUT" type="input"/>
+        <pin num="11" name="LOD-" type="input"/>
+        <pin num="12" name="LOD+" type="input"/>
+        <pin num="13" name="SDN" type="input"/>
+        <pin num="14" name="AC/DC" type="input"/>
+        <pin num="15" name="FR" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="+VS" type="input"/>
+        <pin num="18" name="REFIN" type="input"/>
+        <pin num="19" name="IAOUT" type="input"/>
+        <pin num="20" name="HPSENSE" type="input"/>
+        <pin num="21" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="APHF1608LSEEQBDZGKC">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">APHF1608LSEEQBDZGKC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="BQ24074RGTT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24074RGTT</field>
+        <field name="Description">
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="bidirectional"/>
+        <pin num="2" name="BAT" type="bidirectional"/>
+        <pin num="3" name="BAT@2" type="bidirectional"/>
+        <pin num="4" name="~{CE}" type="bidirectional"/>
+        <pin num="5" name="EN2" type="bidirectional"/>
+        <pin num="6" name="EN1" type="bidirectional"/>
+        <pin num="7" name="~{PGOOD}" type="bidirectional"/>
+        <pin num="8" name="VSS" type="bidirectional"/>
+        <pin num="9" name="~{CHG}" type="bidirectional"/>
+        <pin num="10" name="OUT" type="bidirectional"/>
+        <pin num="11" name="OUT@2" type="bidirectional"/>
+        <pin num="12" name="ILIM" type="bidirectional"/>
+        <pin num="13" name="IN" type="bidirectional"/>
+        <pin num="14" name="TMR" type="bidirectional"/>
+        <pin num="15" name="ITERM" type="bidirectional"/>
+        <pin num="16" name="ISET" type="bidirectional"/>
+        <pin num="17" name="PAD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="BQ27441DRZT-G1A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ27441DRZT-G1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="NC" type="power_in"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="BAT" type="input"/>
+        <pin num="7" name="SRN" type="input"/>
+        <pin num="8" name="SRP" type="input"/>
+        <pin num="9" name="NC" type="power_in"/>
+        <pin num="10" name="BIN" type="input"/>
+        <pin num="11" name="NC" type="power_in"/>
+        <pin num="12" name="GPOUT" type="output"/>
+        <pin num="13" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="CONN_ELECTRODE">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_ELECTRODE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="CONN_USB_3.1_TYPE_C_-_105450-0101">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_USB_3.1_TYPE_C_-_105450-0101</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND1" type="passive"/>
+        <pin num="A2" name="TX1+" type="passive"/>
+        <pin num="A3" name="TX1-" type="passive"/>
+        <pin num="A4" name="VBUS1" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="D1+" type="passive"/>
+        <pin num="A7" name="D1-" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS2" type="passive"/>
+        <pin num="A10" name="RX2-" type="passive"/>
+        <pin num="A11" name="RX2+" type="passive"/>
+        <pin num="A12" name="GND2" type="passive"/>
+        <pin num="B1" name="GND3" type="passive"/>
+        <pin num="B2" name="TX2+" type="passive"/>
+        <pin num="B3" name="TX2-" type="passive"/>
+        <pin num="B4" name="VBUS3" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="D2+" type="passive"/>
+        <pin num="B7" name="D2-" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS4" type="passive"/>
+        <pin num="B10" name="RX1-" type="passive"/>
+        <pin num="B11" name="RX1+" type="passive"/>
+        <pin num="B12" name="GND4" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD__1" type="passive"/>
+        <pin num="S3" name="SHIELD__2" type="passive"/>
+        <pin num="S4" name="SHIELD__3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="EVP-AA502W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EVP-AA502W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO_1" type="input"/>
+        <pin num="2" name="COM_1" type="input"/>
+        <pin num="3" name="NO_2" type="input"/>
+        <pin num="4" name="COM_2" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="MAX16054AZT+T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX16054AZT+T</field>
+        <field name="Footprint">MAX16054AZT+T:SOT95P275X110-6N</field>
+        <field name="MF">Analog Devices</field>
+        <field name="Description">
+PDA's, Portable Audio/Video, Smartphones Interface TSOT-23-6
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=snap</field>
+        <field name="MP">MAX16054AZT+T</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12555279&amp;manufacturer=Analog Devices&amp;part_name=MAX16054AZT+T&amp;search_term=max16054azt+t</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CLEAR" type="bidirectional"/>
+        <pin num="4" name="~{OUT}" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="OptoPipe">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+    </libpart>
+    <libpart lib="renforce-ecg" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="Rechargeable_Battery_Lithium_Polymer">
+      <fields>
+        <field name="Reference">BT</field>
+      </fields>
+    </libpart>
+    <libpart lib="renforce-ecg" part="TC2030-MCP-NL">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTREF" type="input"/>
+        <pin num="2" name="SWDIO/TMS" type="input"/>
+        <pin num="3" name="nRESET" type="input"/>
+        <pin num="4" name="SWDIO/TCK" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="N/C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="TPS7A0533PDBVR">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">IC REG LINEAR 3.3V 200MA SOT23-5</field>
+        <field name="Footprint">renforce-ecg:TPS7A0533PDBVR</field>
+        <field name="Manufacturer">TEXAS INSTRUMENTS</field>
+        <field name="Manufacturer Part Number">TPS7A0533PDBVR</field>
+        <field name="Supplier">DIGIKEY</field>
+        <field name="Supplier Part Number">296-TPS7A0533PDBVRDKR-ND</field>
+        <field name="Note">TPS7A0533PDBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="renforce-ecg" part="TVS_DIODE_5VWM_SOT23-3L_1">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="input"/>
+        <pin num="2" name="I/O2" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="renforce-ecg">
+      <uri>C:\Users\useradmin\Documents\PC Matthieu\INL\RENFORCE\Carte_Dev_Capteurs_Physio\Kicad\renforce-ecg-kicad-develop\Source/renforce-ecg.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LA">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/RA">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/RLD">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND2" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND3" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSS@10" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="VSS@2" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="VSS@3" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="P0.22" pintype="bidirectional"/>
+      <node ref="U1" pin="18" pinfunction="VSS@4" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="P0.24" pintype="bidirectional"/>
+      <node ref="U1" pin="21" pinfunction="VSS@5" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="VSS@1" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="VSS@9" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="VSS@7" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="VSS@6" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VSS@8" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="TMR" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="PAD" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="~{CE}" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="EN1" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="NC" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="EXP" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="NC" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="NC" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="AC/DC" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="21" pinfunction="EP" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="CLEAR" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="COM_1" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="COM_2" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="5" name="IAOUT">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="IAOUT" pintype="input"/>
+    </net>
+    <net code="6" name="LED_BLUE">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="P0.09/NFC1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="LED_GREEN">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="P0.28/AIN4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="LED_RED">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P0.10/NFC2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="LOD+">
+      <node ref="U1" pin="34" pinfunction="P0.06" pintype="bidirectional"/>
+      <node ref="U5" pin="12" pinfunction="LOD+" pintype="input"/>
+    </net>
+    <net code="10" name="LOD-">
+      <node ref="U1" pin="36" pinfunction="P0.05/AIN3" pintype="bidirectional"/>
+      <node ref="U5" pin="11" pinfunction="LOD-" pintype="input"/>
+    </net>
+    <net code="11" name="NTC BAT">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TS" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IN" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="I/O1" pintype="input"/>
+      <node ref="U9" pin="2" pinfunction="I/O2" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D4-Pad3)">
+      <node ref="D4" pin="3" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-Pad4)">
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D5-Pad4)">
+      <node ref="D5" pin="4" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U1A-OUT_ANT)">
+      <node ref="U1" pin="20" pinfunction="OUT_ANT" pintype="bidirectional"/>
+      <node ref="U1" pin="22" pinfunction="OUT_MOD" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(U2-ILIM)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="ILIM" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(U2-ISET)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="ISET" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U2-~{CHG})">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="~{CHG}" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U2-~{PGOOD})">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="~{PGOOD}" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U3-BIN)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U3-GPOUT)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="GPOUT" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U4-EN)">
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(U5-+IN)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U5--IN)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U5-HPDRIVE)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="HPDRIVE" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U5-HPSENSE)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="HPSENSE" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U5-REFIN)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="REFIN" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U5-RLD)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="RLD" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U5-RLDFB)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="RLDFB" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U5-SW)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="SW" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U6-IN)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="NO_1" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="NO_2" pintype="input"/>
+    </net>
+    <net code="39" name="OPAMP+">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="OPAMP+" pintype="input"/>
+    </net>
+    <net code="40" name="OPAMP-">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="OPAMP-" pintype="input"/>
+    </net>
+    <net code="41" name="OUT">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="P0.03/AIN1" pintype="bidirectional"/>
+      <node ref="U5" pin="10" pinfunction="OUT" pintype="input"/>
+    </net>
+    <net code="42" name="REFOUT">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="P0.02/AIN0" pintype="bidirectional"/>
+      <node ref="U5" pin="8" pinfunction="REFOUT" pintype="input"/>
+    </net>
+    <net code="43" name="RST">
+      <node ref="U1" pin="13" pinfunction="P0.18/NRESET" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="SCL">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="P0.30/AIN6" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="45" name="SDA">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="P0.31/AIN7" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="SDN">
+      <node ref="U1" pin="32" pinfunction="P0.08" pintype="bidirectional"/>
+      <node ref="U5" pin="13" pinfunction="SDN" pintype="input"/>
+    </net>
+    <net code="47" name="SWCLK">
+      <node ref="U1" pin="30" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="48" name="SWDIO">
+      <node ref="U1" pin="28" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="VBAT">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="BAT" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="50" name="VBAT_SENSE">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="BAT" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="BAT@2" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="51" name="VBUS">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS1" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS2" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS3" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS4" pintype="passive"/>
+    </net>
+    <net code="52" name="VCC">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="VCC_NRF" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="output"/>
+      <node ref="U5" pin="15" pinfunction="FR" pintype="input"/>
+      <node ref="U5" pin="17" pinfunction="+VS" pintype="input"/>
+    </net>
+    <net code="53" name="VDD">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="54" name="VSYS">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="D5" pin="3" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="OUT" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="OUT@2" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="EN2" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="55" name="unconnected-(J1-D1+-PadA6)">
+      <node ref="J1" pin="A6" pinfunction="D1+" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J1-D1--PadA7)">
+      <node ref="J1" pin="A7" pinfunction="D1-" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J1-D2+-PadB6)">
+      <node ref="J1" pin="B6" pinfunction="D2+" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J1-D2--PadB7)">
+      <node ref="J1" pin="B7" pinfunction="D2-" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J1-RX1+-PadB11)">
+      <node ref="J1" pin="B11" pinfunction="RX1+" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-RX1--PadB10)">
+      <node ref="J1" pin="B10" pinfunction="RX1-" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J1-RX2+-PadA11)">
+      <node ref="J1" pin="A11" pinfunction="RX2+" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J1-RX2--PadA10)">
+      <node ref="J1" pin="A10" pinfunction="RX2-" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J1-SHIELD-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J1-SHIELD__1-PadS2)">
+      <node ref="J1" pin="S2" pinfunction="SHIELD__1" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J1-SHIELD__2-PadS3)">
+      <node ref="J1" pin="S3" pinfunction="SHIELD__2" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J1-SHIELD__3-PadS4)">
+      <node ref="J1" pin="S4" pinfunction="SHIELD__3" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J1-TX1+-PadA2)">
+      <node ref="J1" pin="A2" pinfunction="TX1+" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J1-TX1--PadA3)">
+      <node ref="J1" pin="A3" pinfunction="TX1-" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J1-TX2+-PadB2)">
+      <node ref="J1" pin="B2" pinfunction="TX2+" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J1-TX2--PadB3)">
+      <node ref="J1" pin="B3" pinfunction="TX2-" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J4-Pin_4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1A-D+-Pad8)">
+      <node ref="U1" pin="8" pinfunction="D+" pintype="power_in"/>
+    </net>
+    <net code="75" name="unconnected-(U1A-D--Pad10)">
+      <node ref="U1" pin="10" pinfunction="D-" pintype="power_in"/>
+    </net>
+    <net code="76" name="unconnected-(U1A-P0.04{slash}AIN2-Pad35)">
+      <node ref="U1" pin="35" pinfunction="P0.04/AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1A-P0.07-Pad33)">
+      <node ref="U1" pin="33" pinfunction="P0.07" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U1A-P0.11-Pad43)">
+      <node ref="U1" pin="43" pinfunction="P0.11" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U1A-P0.12-Pad3)">
+      <node ref="U1" pin="3" pinfunction="P0.12" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U1A-P0.13-Pad29)">
+      <node ref="U1" pin="29" pinfunction="P0.13" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U1A-P0.14-Pad5)">
+      <node ref="U1" pin="5" pinfunction="P0.14" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U1A-P0.15-Pad37)">
+      <node ref="U1" pin="37" pinfunction="P0.15" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U1A-P0.16-Pad9)">
+      <node ref="U1" pin="9" pinfunction="P0.16" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(U1A-P0.17-Pad27)">
+      <node ref="U1" pin="27" pinfunction="P0.17" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(U1A-P0.19-Pad45)">
+      <node ref="U1" pin="45" pinfunction="P0.19" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(U1A-P0.20-Pad15)">
+      <node ref="U1" pin="15" pinfunction="P0.20" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(U1A-P0.21-Pad11)">
+      <node ref="U1" pin="11" pinfunction="P0.21" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(U1A-P0.23-Pad47)">
+      <node ref="U1" pin="47" pinfunction="P0.23" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U1A-P0.25-Pad41)">
+      <node ref="U1" pin="41" pinfunction="P0.25" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U1A-P0.26-Pad6)">
+      <node ref="U1" pin="6" pinfunction="P0.26" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(U1A-P0.27-Pad39)">
+      <node ref="U1" pin="39" pinfunction="P0.27" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(U1A-P0.29{slash}AIN5-Pad46)">
+      <node ref="U1" pin="46" pinfunction="P0.29/AIN5" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(U1A-P1.00-Pad57)">
+      <node ref="U1" pin="57" pinfunction="P1.00" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(U1A-P1.01-Pad64)">
+      <node ref="U1" pin="64" pinfunction="P1.01" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(U1A-P1.02-Pad49)">
+      <node ref="U1" pin="49" pinfunction="P1.02" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(U1A-P1.03-Pad58)">
+      <node ref="U1" pin="58" pinfunction="P1.03" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(U1A-P1.04-Pad63)">
+      <node ref="U1" pin="63" pinfunction="P1.04" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(U1A-P1.05-Pad54)">
+      <node ref="U1" pin="54" pinfunction="P1.05" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U1A-P1.06-Pad50)">
+      <node ref="U1" pin="50" pinfunction="P1.06" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U1A-P1.07-Pad62)">
+      <node ref="U1" pin="62" pinfunction="P1.07" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(U1A-P1.08-Pad55)">
+      <node ref="U1" pin="55" pinfunction="P1.08" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(U1A-P1.09-Pad56)">
+      <node ref="U1" pin="56" pinfunction="P1.09" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(U1A-P1.10-Pad60)">
+      <node ref="U1" pin="60" pinfunction="P1.10" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(U1A-P1.11-Pad61)">
+      <node ref="U1" pin="61" pinfunction="P1.11" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(U1A-P1.12-Pad59)">
+      <node ref="U1" pin="59" pinfunction="P1.12" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(U1A-P1.13-Pad53)">
+      <node ref="U1" pin="53" pinfunction="P1.13" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(U1A-P1.14-Pad52)">
+      <node ref="U1" pin="52" pinfunction="P1.14" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(U1A-P1.15-Pad51)">
+      <node ref="U1" pin="51" pinfunction="P1.15" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(U1A-VBUS-Pad12)">
+      <node ref="U1" pin="12" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="110" name="unconnected-(U1B-NC@1-Pad78)">
+      <node ref="U1" pin="78" pinfunction="NC@1" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U1B-NC@2-Pad71)">
+      <node ref="U1" pin="71" pinfunction="NC@2" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1B-NC@3-Pad72)">
+      <node ref="U1" pin="72" pinfunction="NC@3" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U1B-NC@4-Pad77)">
+      <node ref="U1" pin="77" pinfunction="NC@4" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U1B-NC@5-Pad76)">
+      <node ref="U1" pin="76" pinfunction="NC@5" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U1B-NC@6-Pad75)">
+      <node ref="U1" pin="75" pinfunction="NC@6" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U1B-NC@7-Pad74)">
+      <node ref="U1" pin="74" pinfunction="NC@7" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U1B-NC@8-Pad73)">
+      <node ref="U1" pin="73" pinfunction="NC@8" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U1B-NC@9-Pad70)">
+      <node ref="U1" pin="70" pinfunction="NC@9" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1B-NC@10-Pad69)">
+      <node ref="U1" pin="69" pinfunction="NC@10" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U1B-NC@11-Pad68)">
+      <node ref="U1" pin="68" pinfunction="NC@11" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U1B-NC@12-Pad67)">
+      <node ref="U1" pin="67" pinfunction="NC@12" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U1B-NC@13-Pad66)">
+      <node ref="U1" pin="66" pinfunction="NC@13" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U1B-NC@14-Pad65)">
+      <node ref="U1" pin="65" pinfunction="NC@14" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U2-ITERM-Pad15)">
+      <node ref="U2" pin="15" pinfunction="ITERM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U6-~{OUT}-Pad4)">
+      <node ref="U6" pin="4" pinfunction="~{OUT}" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
