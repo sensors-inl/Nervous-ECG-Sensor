@@ -1,93 +1,80 @@
-# nervous-ecg-kicad
+# Nervous - ECG Sensor
 
+The **Nervous** initiative is a project embracing open-hardware and open-source
+principles, with the goal of delivering wearable sensors and accompanying
+software for the analysis of Autonomic Nervous System (SNA) activity.
 
+The entire project is published under the MIT Licence.
 
-## Getting started
+## ECG Sensor
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Contained within this repository are ECAD files for the production of PCBs and
+the assembly of circuits for a wireless, wrist-worn ECG sensor.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Originally intended for measuring heart rate via electrodes positioned on the
+forearms or hands, this sensor utilizes the AD8232 in conjunction with passive
+components, as outlined in the "EXERCISE APPLICATION: HEART RATE MEASURED AT
+THE HANDS" section on page 27 of the datasheet:
+<https://www.analog.com/media/en/technical-documentation/data-sheets/ad8232.pdf>.
+You have the freedom to adjust this configuration to suit different
+applications and electrode placements.
 
-## Add your files
+The microcontroller employed is an ISP1807 (Insight SiP), which houses a
+nRF52840 (Nordic Semiconductor).
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Hardware features
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/BiomedicalSensors/renforce/nervous-ecg-kicad.git
-git branch -M main
-git push -uf origin main
-```
+- USB-C connector for charging battery
+- Embedded LiPo battery charger and I2C fuel-gauge
+- On/Off SPST button (enables / disables voltage regulator)
+- RGB status Led
+- AD8232 ECG AFE featuring a 7 Hz - 24 Hz bandpass filter (56 dB @ 13 Hz) and
+RLD
+- BLE wireless communication
 
-## Integrate with your tools
+## Manufacturing and assembling
 
-- [ ] [Set up project integrations](https://gitlab.com/BiomedicalSensors/renforce/nervous-ecg-kicad/-/settings/integrations)
+Gerber files, drill files, assembly drawings, pick-and-place files, and the
+Bill of Materials (BOM) are accessible in the ```Export``` folder:
 
-## Collaborate with your team
+- ```Export/Manufacturing```: Gerber (.gbr) and Drill files (.drl)
+- ```Export/Assembly```: Assembly drawing (.pdf), pick and place files (.pos),
+BOM (.csv)
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### PCB properties for manufacturing
 
-## Test and Deploy
+|                          |                   |
+| :----------------------- | :---------------: |
+| Dimensions               | 21.5 mm x 33.5 mm |
+| Number of layers         | 2                 |
+| Minimal insulation width | 0.150 mm          |
+| Minimal trace width      | 0.150 mm          |
+| Miniaml hole size        | 0.200 mm          |
 
-Use the built-in continuous integration in GitLab.
+## Modification
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+The ```Source``` folder holds the original KiCad project, designed using KiCad
+version 7.0.8.
 
-***
+## Note on cables and electrodes placement
 
-# Editing this README
+This sensor is designed to capture ECG signals across various conditions while minimizing discomfort for the subject.
+To achieve this, it incorporates high gain to accommodate electrode placement on the hands or forearms, where signal strength is typically lower.
+However, this positioning also amplifies sensitivity to motion artifacts, which can interfere with accurate heart beat detection.
+To mitigate the impact of these artifacts, we recommend utilizing solid gel electrodes like the 3M 2650.
+For connectivity, we implemented a simple 2.54 mm, 3-way header on the sensor, allowing for custom electrode connections.
+It's advised to use short cables for connecting the two electrodes in proximity to the device (RLD and RA), and a longer cable for the third electrode on the opposite arm (LA).
+We constructed cables featuring female crimp terminals on the sensor end and 3 mm banana plugs with a snap adapter on the electrode end.
+Finally, securely hold the electrodes in place, along with the cables near the electrodes, using medical tape to minimize noise from connector friction.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## Authors and contact
 
-## Suggestions for a good README
+- Authors: Bertrand Massot, Matthieu Mesnage, Hugo Buy
+- Affiliation: INSA Lyon, Ecole Centrale Lyon, Universite Claude Bernard Lyon
+1, CPE Lyon, CNRS, INL UMR 5270, 69600 Villeurbanne France.
+- Contact email: <bertrand.massot@insa-lyon.fr>
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## Funding
 
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This work was supported the French National Reasearch Agency (ANR) under the
+grant ANR-22-CE31-0023-03 RENFORCE.
